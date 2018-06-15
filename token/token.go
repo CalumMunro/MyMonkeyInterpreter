@@ -9,7 +9,7 @@ type Token struct {
 
 const (
 	ILLEGAL = "ILLEGAL"
-	EOE     = "EOF"
+	EOF     = "EOF"
 
 	// Identifiers & Literals
 	IDENT = "IDENT"
@@ -23,10 +23,10 @@ const (
 	COMMA     = ","
 	SEMICOLON = ";"
 
-	LPAREN  = "("
-	RPARENT = ")"
-	LBRACE  = "{"
-	RBRACE  = "}"
+	LPAREN = "("
+	RPAREN = ")"
+	LBRACE = "{"
+	RBRACE = "}"
 
 	// Keywords
 	FUNCTION = "FUNCTION"
